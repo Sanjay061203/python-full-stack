@@ -1,3 +1,4 @@
+'''
 # Question 1: Student Marks Manager
 
 marks = []
@@ -143,3 +144,15 @@ if python_students.isdisjoint(da_students):
     print("The two sets are disjoint: True")
 else:
     print("The two sets are disjoint: False")
+'''
+w = float(input("enter the weight in kgs: "))
+h = float(input("enter the height in meters: "))
+BMI=w/(h**2)
+if (BMI)<18.5:
+    print("underweight")
+elif (18.5<BMI<24.9):
+    print("normal")
+elif (25<BMI<29.9):
+    print("overweight")
+else:
+    print("obesity")
